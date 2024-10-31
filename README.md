@@ -1,5 +1,5 @@
 # UE5_Aura
-Aura项目以及 Gameplay Ability System的使用 
+Aura项目以及 Gameplay Ability System(GAS)的使用 
 
 version: UE5.3.2
 
@@ -8,4 +8,4 @@ Visual Studio 2022 MSVC x64/x86生成工具17.4 / 17.6
 
 使用方式:右键uproject,Generate Visual Studio project file(如果没有这个选项,打开方式改为UnrealEngine) 
 
-19
+20
