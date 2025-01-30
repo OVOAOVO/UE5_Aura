@@ -64,6 +64,14 @@ protected:
 	virtual void InitializeDefaultAttributes() const;
 
 	void AddCharacterAbilities();
+
+	/* Dissolve Effects*/
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TObjectPtr<UMaterialInstance> DissolveMaterialInstance;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TObjectPtr<UMaterialInstance> WeapnDissolveMaterialInstance;
 private:
 
 	UPROPERTY(EditAnywhere, Category = "Abilities")
