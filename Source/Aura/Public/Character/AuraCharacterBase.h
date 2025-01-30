@@ -67,6 +67,14 @@ protected:
 
 	/* Dissolve Effects*/
 
+	void Dissovle();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void StartDissovleTimeline(UMaterialInstanceDynamic* DynamicMaterialInstance);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void StartWeaponDissovleTimeline(UMaterialInstanceDynamic* DynamicMaterialInstance);
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TObjectPtr<UMaterialInstance> DissolveMaterialInstance;
 
