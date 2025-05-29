@@ -1,4 +1,4 @@
-// CopyRight OVOAOVO
+ï»¿// CopyRight OVOAOVO
 
 #include "AuraGameplayTags.h"
 #include "GameplayTagsManager.h"
@@ -12,62 +12,62 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
     */
     GameplayTags.Attributes_Primary_Strength = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Primary.Strength"),
-        FString("Ôö¼ÓÎïÀíÉËº¦"));
+        FString("Ã”Ã¶Â¼Ã“ÃÃ¯Ã€Ã­Ã‰Ã‹ÂºÂ¦"));
 
     GameplayTags.Attributes_Primary_Intelligence = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Primary.Intelligence"),
-        FString("Ôö¼ÓÄ§·¨ÉËº¦"));
+        FString("Ã”Ã¶Â¼Ã“Ã„Â§Â·Â¨Ã‰Ã‹ÂºÂ¦"));
 
     GameplayTags.Attributes_Primary_Resilience = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Primary.Resilience"),
-        FString("Ôö¼Ó»¤¼×¸ú»¤¼×´©Í¸Á¦"));
+        FString("Ã”Ã¶Â¼Ã“Â»Â¤Â¼Ã—Â¸ÃºÂ»Â¤Â¼Ã—Â´Â©ÃÂ¸ÃÂ¦"));
 
     GameplayTags.Attributes_Primary_Vigor = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Primary.Vigor"),
-        FString("Ôö¼ÓÉúÃüÖµ"));
+        FString("Ã”Ã¶Â¼Ã“Ã‰ÃºÃƒÃ¼Ã–Âµ"));
 
     /*
     *Secondary
     */
     GameplayTags.Attributes_Secondary_Armor = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.Armor"),
-        FString("¼õÉÙÊÕµ½µÄÉËº¦£¬Ìá¸ß¸ñµ²¼¸ÂÊ"));
+        FString("Â¼ÃµÃ‰Ã™ÃŠÃ•ÂµÂ½ÂµÃ„Ã‰Ã‹ÂºÂ¦Â£Â¬ÃŒÃ¡Â¸ÃŸÂ¸Ã±ÂµÂ²Â¼Â¸Ã‚ÃŠ"));
 
     GameplayTags.Attributes_Secondary_ArmorPenetration = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.ArmorPenetration"),
-        FString("ºöÂÔ»¤¼×,±©»÷¼¸ÂÊÉÏÉı"));
+        FString("ÂºÃ¶Ã‚Ã”Â»Â¤Â¼Ã—,Â±Â©Â»Ã·Â¼Â¸Ã‚ÃŠÃ‰ÃÃ‰Ã½"));
 
     GameplayTags.Attributes_Secondary_BlockChance = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.BlockChance"),
-        FString("¸ñµ²£¬¼õÉÙÒ»°ë¼´½«µ½À´µÄÉËº¦"));
+        FString("Â¸Ã±ÂµÂ²Â£Â¬Â¼ÃµÃ‰Ã™Ã’Â»Â°Ã«Â¼Â´Â½Â«ÂµÂ½Ã€Â´ÂµÃ„Ã‰Ã‹ÂºÂ¦"));
 
     GameplayTags.Attributes_Secondary_CriticalHitChance = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.CriticalHitChance"),
-        FString("±©»÷£¬Ë«±¶¹¥»÷ÉËº¦µÄ´¥·¢¼¸ÂÊ"));
+        FString("Â±Â©Â»Ã·Â£Â¬Ã‹Â«Â±Â¶Â¹Â¥Â»Ã·Ã‰Ã‹ÂºÂ¦ÂµÃ„Â´Â¥Â·Â¢Â¼Â¸Ã‚ÃŠ"));
 
     GameplayTags.Attributes_Secondary_CriticalHitDamage = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.CriticalHitDamage"),
-        FString("±©»÷ÉËº¦£¬±©»÷Ê±µÄ±©»÷ÉËº¦"));
+        FString("Â±Â©Â»Ã·Ã‰Ã‹ÂºÂ¦Â£Â¬Â±Â©Â»Ã·ÃŠÂ±ÂµÃ„Â±Â©Â»Ã·Ã‰Ã‹ÂºÂ¦"));
 
     GameplayTags.Attributes_Secondary_CriticalHitResistance = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.CriticalHitResistance"),
-        FString("±©»÷¿¹ĞÔ£¬¼õÉÙ±©»÷µÄÉËº¦"));
+        FString("Â±Â©Â»Ã·Â¿Â¹ÃÃ”Â£Â¬Â¼ÃµÃ‰Ã™Â±Â©Â»Ã·ÂµÃ„Ã‰Ã‹ÂºÂ¦"));
 
     GameplayTags.Attributes_Secondary_HealthRegeneration = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.HealthRegeneration"),
-        FString("»ØÑª£¬Ã¿Ãë»ØÑªµÄÊıÖµ"));
+        FString("Â»Ã˜Ã‘ÂªÂ£Â¬ÃƒÂ¿ÃƒÃ«Â»Ã˜Ã‘ÂªÂµÃ„ÃŠÃ½Ã–Âµ"));
 
     GameplayTags.Attributes_Secondary_ManaRegeneration = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.ManaRegeneration"),
-        FString("»ØÀ¶£¬Ã¿Ãë»ØÀ¶µÄÊıÖµ"));
+        FString("Â»Ã˜Ã€Â¶Â£Â¬ÃƒÂ¿ÃƒÃ«Â»Ã˜Ã€Â¶ÂµÃ„ÃŠÃ½Ã–Âµ"));
 
     GameplayTags.Attributes_Secondary_MaxHealth = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.MaxHealth"),
-        FString("×î´óÉúÃüÖµ"));
+        FString("Ã—Ã®Â´Ã³Ã‰ÃºÃƒÃ¼Ã–Âµ"));
 
     GameplayTags.Attributes_Secondary_MaxMana = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Attributes.Secondary.MaxMana"),
-        FString("×î´ó·¨Á¦Öµ"));
+        FString("Ã—Ã®Â´Ã³Â·Â¨ÃÂ¦Ã–Âµ"));
 
     /*
      * Input Tags
@@ -100,11 +100,18 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 
     GameplayTags.Damage = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Damage"),
-        FString("ÉËº¦")
+        FString("Ã‰Ã‹ÂºÂ¦")
     );
+
+    GameplayTags.Damage_Fire = UGameplayTagsManager::Get().AddNativeGameplayTag(
+        FName("Damage.Fire"),
+        FString("ç«ç„°ä¼¤å®³ç±»å‹")
+    );
+
+    GameplayTags.DamageTypes.Add(GameplayTags.Damage_Fire);
 
     GameplayTags.Effects_HitReact = UGameplayTagsManager::Get().AddNativeGameplayTag(
         FName("Effects.HitReact"),
-        FString("¹¥»÷ÃüÖĞ±êÇ©")
+        FString("Â¹Â¥Â»Ã·ÃƒÃ¼Ã–ÃÂ±ÃªÃ‡Â©")
     );
 }
