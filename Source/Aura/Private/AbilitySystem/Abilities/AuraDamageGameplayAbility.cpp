@@ -1,8 +1,8 @@
 // CopyRight OVOAOVO
 
+#include "AbilitySystem/Abilities/AuraDamageGameplayAbility.h"
 #include "AbilitySystemBlueprintLibrary.h"
 #include "AbilitySystemComponent.h"
-#include "AbilitySystem/Abilities/AuraDamageGameplayAbility.h"
 
 void UAuraDamageGameplayAbility::CauseDamage(AActor* TargetActor)
 {
